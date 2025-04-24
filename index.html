@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Schepper</title>
+</head>
+<body>
+    <header class="top-navigation">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Schepper Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">About</a></li>
+                    <li><a href="#" class="nav-link">Products</a></li>
+                    <li><a href="#" class="nav-link">Projects</a></li>
+                    <li><a href="#" class="nav-link">Services</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cta-button">
+                <a href="#" class="btn">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active" style="background-image: url('assets/hero-1.png')">
+                    <div class="container">
+                        <div class="hero-content fade-in">
+                            <h1>WHERE GREAT IDEAS COME TO LIFE</h1>
+                            <p>We deliver exceptional metal ceiling solutions with premium materials and craftsmanship, transforming architectural visions into reality.</p>
+                            <a href="#" class="btn">Explore Products</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('assets/hero-2.jpg')">
+                    <div class="container">
+                        <div class="hero-content fade-in">
+                            <h1>INNOVATIVE METAL SOLUTIONS</h1>
+                            <p>Creating stunning architectural elements with precision engineering and modern design principles.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('assets/solution-1.png')">
+                    <div class="container">
+                        <div class="hero-content fade-in">
+                            <h1>CRAFTING EXCELLENCE</h1>
+                            <p>Precision metalwork that enhances spaces and brings architectural vision to reality.</p>
+                            <a href="#" class="btn">View Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <div class="slider-arrows">
+                    <button class="arrow prev" id="prev">&#10094;</button>
+                    <button class="arrow next" id="next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <h2 class="animate-on-scroll">Schepper brings you a diversity of metallic metal products.</h2>
+            <p class="animate-on-scroll">We specialize in creating innovative, high-quality metal ceiling and exterior solutions for modern architecture, combining aesthetics with functionality for both residential and commercial projects.</p>
+        </div>
+    </section>
+
+    <section class="products-preview">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-item animate-on-scroll">
+                    <img src="assets/products-1.png" alt="Product">
+                    <div class="product-overlay">
+                        <div class="product-details">
+                            <h3>Linear Ceiling</h3>
+                            <p>Modern sleek design for contemporary spaces</p>
+                            <a href="#" class="product-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item animate-on-scroll" data-delay="200">
+                    <img src="assets/products-2.png" alt="Product">
+                    <div class="product-overlay">
+                        <div class="product-details">
+                            <h3>Panel Systems</h3>
+                            <p>Versatile and elegant ceiling solutions</p>
+                            <a href="#" class="product-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item animate-on-scroll" data-delay="400">
+                    <img src="assets/products-3.png" alt="Product">
+                    <div class="product-overlay">
+                        <div class="product-details">
+                            <h3>Perforated Designs</h3>
+                            <p>Acoustic and aesthetic excellence</p>
+                            <a href="#" class="product-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item animate-on-scroll" data-animation="counter" data-count="300">
+                    <h3>0<sup>+</sup></h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item animate-on-scroll" data-animation="counter" data-count="800" data-delay="150">
+                    <h3>0K<sup>+</sup></h3>
+                    <p>Sq. Ft. Area Coverage</p>
+                </div>
+                <div class="stat-item animate-on-scroll" data-animation="counter" data-count="2" data-delay="300">
+                    <h3>0</h3>
+                    <p>Countries</p>
+                </div>
+                <div class="stat-item animate-on-scroll" data-animation="counter" data-count="120" data-delay="450">
+                    <h3>0<sup>+</sup></h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="animate-on-scroll">We offer an individual approach to each client.</h2>
+            <div class="features-grid">
+                <div class="feature-item animate-on-scroll">
+                    <img src="assets/feature-icon-1.svg" alt="Feature Icon">
+                    <h3>THOROUGH RESEARCH</h3>
+                    <p>We analyze your needs and project requirements to provide tailored solutions that match your expectations.</p>
+                </div>
+                <div class="feature-item animate-on-scroll" data-delay="150">
+                    <img src="assets/feature-icon-2.svg" alt="Feature Icon">
+                    <h3>SCHEDULE</h3>
+                    <p>We ensure timely delivery and installation according to your project timeline and specifications.</p>
+                </div>
+                <div class="feature-item animate-on-scroll" data-delay="300">
+                    <img src="assets/feature-icon-3.svg" alt="Feature Icon">
+                    <h3>EASY INSTALLATION</h3>
+                    <p>Our products are designed for straightforward installation, minimizing on-site time and complications.</p>
+                </div>
+                <div class="feature-item animate-on-scroll" data-delay="450">
+                    <img src="assets/feature-icon-4.svg" alt="Feature Icon">
+                    <h3>DURABILITY</h3>
+                    <p>We use premium materials that ensure long-lasting performance and resistance to environmental factors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="top-products">
+        <div class="container">
+            <h2 class="animate-on-scroll">Our top selling products with modern aesthetics.</h2>
+            <div class="products-carousel">
+                <div class="product animate-on-scroll">
+                    <img src="assets/product-review-1.png" alt="Product">
+                    <h3>LINEAR CEILING TYPE</h3>
+                </div>
+                <div class="product animate-on-scroll" data-delay="150">
+                    <img src="assets/product-review-2.png" alt="Product">
+                    <h3>PERFORATED CEILING</h3>
+                </div>
+                <div class="product animate-on-scroll" data-delay="300">
+                    <img src="assets/product-review-3.png" alt="Product">
+                    <h3>PANEL CEILING</h3>
+                </div>
+                <div class="product animate-on-scroll" data-delay="450">
+                    <img src="assets/product-review-4.png" alt="Product">
+                    <h3>STRIP CEILING</h3>
+                </div>
+            </div>
+            <div class="product-category animate-on-scroll">
+                <h2>BAFFLE CEILINGS, LINEAR SCREENS & MORE</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="solutions">
+        <div class="container">
+            <h2 class="animate-on-scroll">We provide modern metal ceilings and exterior solutions.</h2>
+            <div class="solutions-grid">
+                <div class="solution-item animate-on-scroll">
+                    <img src="assets/solution-1.png" alt="Residential Solutions">
+                    <h3>RESIDENTIAL</h3>
+                    <p>Enhance your home with our stylish, durable metal ceiling solutions designed for modern living spaces.</p>
+                </div>
+                <div class="solution-item animate-on-scroll" data-delay="200">
+                    <img src="assets/solution-2.png" alt="Commercial Solutions">
+                    <h3>COMMERCIAL</h3>
+                    <p>Create impressive commercial environments with our premium metal ceiling systems designed for high-traffic areas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-projects">
+        <div class="container">
+            <h2 class="animate-on-scroll">Showcasing our latest projects with innovation and excellence.</h2>
+            <div class="projects-grid">
+                <div class="project-item animate-on-scroll">
+                    <img src="assets/recent-1.png" alt="Recent Project">
+                    <div class="project-overlay">
+                        <h3>Modern Office Complex</h3>
+                        <p>Dubai, UAE</p>
+                    </div>
+                </div>
+                <div class="project-item animate-on-scroll" data-delay="150">
+                    <img src="assets/recent-2.png" alt="Recent Project">
+                    <div class="project-overlay">
+                        <h3>Luxury Residential Tower</h3>
+                        <p>Mumbai, India</p>
+                    </div>
+                </div>
+                <div class="project-item animate-on-scroll" data-delay="300">
+                    <img src="assets/recent-3.png" alt="Recent Project">
+                    <div class="project-overlay">
+                        <h3>Corporate Headquarters</h3>
+                        <p>Delhi, India</p>
+                    </div>
+                </div>
+                <div class="project-item animate-on-scroll" data-delay="450">
+                    <img src="assets/recent-4.png" alt="Recent Project">
+                    <div class="project-overlay">
+                        <h3>Shopping Mall Atrium</h3>
+                        <p>Bangalore, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-preview">
+        <div class="container">
+            <h2 class="animate-on-scroll">Experience a real-time preview of how our products look.</h2>
+            <div class="preview-content">
+                <div class="preview-image animate-on-scroll">
+                    <img src="assets/video-thumbnail.png" alt="Product Preview">
+                    <div class="play-button">
+                        <span>▶</span>
+                    </div>
+                </div>
+                <div class="preview-thumbnails">
+                    <div class="thumbnail animate-on-scroll">
+                        <img src="assets/about-us-1.png" alt="Thumbnail">
+                    </div>
+                    <div class="thumbnail animate-on-scroll" data-delay="100">
+                        <img src="assets/about-us-2.png" alt="Thumbnail">
+                    </div>
+                    <div class="thumbnail animate-on-scroll" data-delay="200">
+                        <img src="assets/about-us-3.png" alt="Thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 class="animate-on-scroll">Elevate Architecture with Precision Metal Craftsmanship!</h2>
+            <a href="#" class="btn animate-on-scroll" data-delay="200">Contact Us</a>
+        </div>
+    </section>
+
+    <section class="final-cta">
+        <div class="cta-image animate-on-scroll">
+            <img src="assets/hero-2.jpg" alt="Final CTA">
+        </div>
+        <div class="cta-content">
+            <h2 class="animate-on-scroll">SHAPE YOUR IDEA WITH EXPERTISE</h2>
+            <a href="#" class="btn animate-on-scroll" data-delay="200">Contact Us</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo animate-on-scroll">
+                    <img src="assets/logo.png" alt="Schepper Logo">
+                </div>
+                <div class="footer-links">
+                    <div class="link-column animate-on-scroll">
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="#">Linear Ceiling</a></li>
+                            <li><a href="#">Perforated Ceiling</a></li>
+                            <li><a href="#">Panel Ceiling</a></li>
+                            <li><a href="#">Strip Ceiling</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column animate-on-scroll" data-delay="150">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column animate-on-scroll" data-delay="300">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>info@schepper.com</li>
+                            <li>+1 234 567 890</li>
+                            <li>123 Main Street, City</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Schepper. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
